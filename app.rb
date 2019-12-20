@@ -1,8 +1,9 @@
-require 'sinatra'
-class App < Sinatra::Base
+require "sinatra"
 
-  get '/' do 
+class App < Sinatra::Base
+  
+  get "/" do 
     "Hello, world!"
   end
-
+  
 end
